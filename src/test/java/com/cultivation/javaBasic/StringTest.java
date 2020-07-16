@@ -17,8 +17,9 @@ class StringTest {
         // TODO: Please modify the following line to pass the test.
         //
         // It is really easy to pass the test. But you have to tell why.
+        // String replace() will return a new variable.
         // <--start
-        final Optional<Boolean> areSame = Optional.empty();
+        final Optional<Boolean> areSame = Optional.of(false);
         // --end-->
 
         assertEquals("The new string", modifiedString);
